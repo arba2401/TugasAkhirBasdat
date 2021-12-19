@@ -1,368 +1,56 @@
-* 
+.banner 
 {
-    text-decoration: none;
-    margin: 0px;
-    padding: 0px;
+  background: url("https://www.humanesociety.org/sites/default/files/styles/1240x698/public/2018/08/dog-girl-440625.jpg?h=558430af&itok=o9oT5NnO")
+    no-repeat center center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: #fff;
 }
 
-body 
+.lingkaran 
 {
-    margin: 0px;
-    padding: 0px;
-    font-family: "open sans", sans-serif;
+  display: inline-block;
+  border-radius: 50%;
+  width: 150px;
+  margin: auto;
+  height: 150px;
+  color: #fff;
+  background-color: #dc3545;
 }
 
-.wrapper 
+.lingkaran i 
 {
-    width: 1100px;
-    margin: auto;
-    position: relative;
+  position: relative;
+  top: 30px;
 }
 
-.logo a
+.crop-img 
 {
-    font-size: 50px;
-    font-weight: 800;
-    float: left;
-    font-family: courier;
-    color: #89B5AF;
+  object-fit: cover;
 }
 
-.menu
+.tim img 
 {
-    float: right;
+  width: 250px;
+  border: 10px solid #cccccc;
 }
 
-nav 
+
+a.social 
 {
-    width: 100%;
-    margin: auto;
-    display: flex;
-    line-height: 80px;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-    background: #ffffff;
-    z-index: 1;
-    border-bottom: 1px solid #89B5AF;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #333;
+  line-height: 40px;
 }
 
-nav ul
+.client img 
 {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+  height: auto;
+  max-height: 50px;
 }
 
-nav ul li
-{
-    float: left;
-}
-
-nav ul li a
-{
-    color: black;
-    font-weight: bold;
-    text-align: center;
-    padding: 0px 16px 0px 16px;
-    text-decoration: none;
-}
-
-nav ul li a:hover
-{
-    text-decoration: underline;
-}
-
-section
-{   
-    margin: auto;
-    display: flex;
-    margin-bottom: 50px;
-}
-
-.kolom 
-{
-    margin-top: 60px;
-    margin-bottom: 60px;
-}
-
-.kolom .deskripsi
-{
-    font-size: 30px;
-    font-weight: bold;
-    font-family: "comic sans ms";
-    color: #89B5AF;
-}
-
-h2
-{
-    font-family: "comic sans ms";
-    font-weight: 800;
-    font-size: 45px;
-    margin-bottom: 20px;
-    color: #89B5AF;
-    width: 100%;
-    line-height: 50px;
-}
-
-a.tbl-biru
-{
-    background: #89B5AF;
-    border-radius: 20px;
-    margin-top: 20px;
-    padding: 15px 20px 15px 20px;
-    color: #ffffff;
-    cursor: pointer;
-    font-weight: bold;
-}
-
-a.tbl-biru:hover
-{
-    background: #ee0585;
-    text-decoration: none;
-}
-
-a.tbl-merah
-{
-    background: #89B5AF;
-    border-radius: 20px;
-    margin-top: 20px;
-    padding: 15px 20px 15px 20px;
-    color: #ffffff;
-    cursor: pointer;
-    font-weight: bold;
-}
-
-a.tbl-merah:hover
-{
-    background: #ee0585;
-    text-decoration: none;
-}
-
-p
-{
-    margin: 10px 0px 10px 0px;
-    padding: 10px 0px 10px 0px;
-}
-
-
-.gambar img
-{
-    width: 300px;
-    height: 300px;
-    padding: 400px 25px 400px 25px;
-}
-
-h3
-{
-    font-family: "comic sans ms";
-    font-weight: 800px;
-    font-size: 40px;
-    margin-bottom: 10px;
-    color: #89B5AF;
-    width: 100%;
-    line-height: 50px;
-    margin: 20px 10px 20px 10px;
-}
-
-.kolom .deskripsi1
-{
-    font-family: "comic sans ms";
-    font-weight: 800;
-    font-size: 45px;
-    margin-bottom: 10px;
-    color: #89B5AF;
-    width: 100%;
-    line-height: 50px;
-    margin: 20px 10px 20px 10px;
-}
-.gambar1 img
-{
-    width: 300px;
-    height: 300px;
-    padding: 30px 20px 30px 20px;
-    margin-top: 225px;
-}
-
-.gambar2 img
-{
-    width: 300px;
-    height: 300px;
-    padding: 30px 20px 30px 20px;
-    padding-top: 150px;
-}
-
-.gambar3 img
-{
-    width: 300px;
-    height: 300px;
-    padding: 30px 20px 30px 20px;
-    padding-top: 150px;
-}
-
-.gambar4 img
-{
-    width: 300px;
-    height: 300px;
-    padding: 30px 20px 30px 20px;
-    padding-top: 100px;
-}
-
-.gambar5 img
-{
-    width: 300px;
-    height: 300px;
-    padding: 30px 20px 30px 20px;
-    padding-top: 150px;
-}
-
-.tengah
-{
-    text-align: center;
-    width: 100%;
-}
-
-.dokterlist
-{
-    width: 100%;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.gambardokter
-{
-    width: 20%;
-    margin: 0 auto;
-}
-
-.gambardokter img 
-{
-    width: 80%;
-    border-radius: 50%;
-}
-
-.gambardokter p
-{
-    font-family: 'comic sans ms';
-    font-weight: 800;
-    font-size: 25px;
-    text-align: center;
-    color: #89B5AF;
-}
-
-.list-hospital
-{
-    width: 100%;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.gambar-hospital
-{
-    width: 20%;
-    margin: 0 auto;
-}
-
-.gambar-hospital img
-{
-    width: 150px;
-    border-radius: 50%;
-}
-
-#contact 
-{
-    padding:50px 0px 50px 0px;
-}
-
-.footer 
-{
-    width: 100%;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    margin: auto;
-}
-
-.footer-section 
-{
-    width: 20%;
-    margin: 0 auto;
-}
-
-h4 
-{
-    font-family: 'comic sans ms';
-    font-weight: 800;
-    font-size: 30px;
-    margin-bottom: 20px;
-    color: #89B5AF;
-    width: 100%;
-    line-height: 50px;
-}
-
-#copyright 
-{
-    text-align: center;
-    width: 100%;
-    padding: 50px 0px 50px 0px;
-    margin-top: 50px;
-}
-
-@media screen and (max-width: 991.98px) 
-{
-    .wrapper 
-    {
-        width: 100%;
-    }
-
-    .logo a 
-    {
-        display: block;
-        width: 100%;
-        text-align: center;
-    }
-
-    nav .menu 
-    {
-        width: 100%;
-        margin: 0;
-    }
-
-    nav .menu ul 
-    {
-        text-align: center;
-        margin: auto;
-        line-height: 60px;
-    }
-
-    nav .menu ul li 
-    {
-        display: inline-block;
-        float: none;
-    }
-
-    section 
-    {
-        display: block;
-    }
-
-    section img 
-    {
-        display: block;
-        width: 100%;
-        height: auto;
-    }
-
-    .gambardokter 
-    {
-        width: 50%;
-    }
-
-    .gambar-hospital 
-    {
-        width: 50%;
-    }
-}
