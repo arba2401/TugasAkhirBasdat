@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-20T12:19:21.299Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="GLG6v8nSWOTi-wR8M5H-" version="16.0.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-20T12:21:57.675Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="43iBKw87qE0Km716ZVAP" version="16.0.0" type="github" pages="2">
   <diagram id="2J634cxyii3OIA9NPOQA" name="Page-1">
     <mxGraphModel dx="782" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -119,7 +119,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6R1axX1EwmKw5E2RZolj-3" value="Is Adopted" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="6R1axX1EwmKw5E2RZolj-1">
+        <mxCell id="6R1axX1EwmKw5E2RZolj-3" value="State" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="6R1axX1EwmKw5E2RZolj-1">
           <mxGeometry x="30" width="150" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -422,7 +422,7 @@
         <mxCell id="0QgfkrtzCJW_Zw9muQF2-25" value="&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;u&gt;Adopter_ID&lt;/u&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="n9HTW4S1U68KLIDgizo6-1" vertex="1">
           <mxGeometry x="350" y="420" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZTq86ARvDKrluLWZhsok-0" value="&lt;span style=&quot;font-size: 14px&quot;&gt;Is Adopted&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="n9HTW4S1U68KLIDgizo6-1">
+        <mxCell id="ZTq86ARvDKrluLWZhsok-0" value="&lt;span style=&quot;font-size: 14px&quot;&gt;State&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="n9HTW4S1U68KLIDgizo6-1">
           <mxGeometry x="1070" y="190" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
