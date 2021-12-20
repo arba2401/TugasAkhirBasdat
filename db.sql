@@ -7,7 +7,7 @@ CREATE TABLE Pet(
     Owner_Address varchar(200) NOT NULL,
     Pet_Name varchar(100) NOT NULL,
     Breed varchar(100) NOT NULL,
-    Gender char NOT NULL,
+    Gender varchar(10) NOT NULL,
     Age int NOT NULL
 );
 
@@ -31,7 +31,7 @@ CREATE TABLE History(
 	Certificate_ID bigint NOT NULL,
 	Pet_Name varchar(100) NOT NULL,
 	Breed varchar(100) NOT NULL,
-	Gender char NOT NULL,
+	Gender varchar(10) NOT NULL,
 	Age int NOT NULL,
 	Timestamps DATE NOT NULL DEFAULT CURRENT_DATE,
 	CONSTRAINT History_Certificate_ID_FK FOREIGN KEY(Certificate_ID) REFERENCES Certificate(Certificate_ID)
