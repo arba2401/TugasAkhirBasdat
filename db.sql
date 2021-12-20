@@ -8,7 +8,8 @@ CREATE TABLE Pet(
     Pet_Name varchar(100) NOT NULL,
     Breed varchar(100) NOT NULL,
     Gender varchar(10) NOT NULL,
-    Age int NOT NULL
+    Age int NOT NULL,
+    State boolean DEFAULT false
 );
 
 CREATE TABLE Adopter(

@@ -16,7 +16,7 @@
 	<table border=2>
 	<thead>
 		<tr>
-			<th>No</th>
+			<th>ID</th>
 			<th>Owner's Name</th>
 			<th>Owner's Phone Number</th>
 			<th>Owner's Address</th>
@@ -30,7 +30,7 @@
 	<tbody>
 
 		<?php
-		$query = pg_query("SELECT * FROM pet");
+		$query = pg_query("SELECT * FROM pet WHERE state = false");
 
 		while($hewan = pg_fetch_array($query)){
 			echo "<tr>";
@@ -49,7 +49,7 @@
 			echo "</td>";
 			
 			echo "<td>";
-			echo "<a href='formedit.php?pet_id=".$hewan['pet_id']."'>Edit</a>";
+			echo "<a href='edit.php?pet_id=".$hewan['pet_id']."'>Edit</a>";
 			echo "</td>";
 
 			echo "</tr>";

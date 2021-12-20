@@ -1,8 +1,11 @@
 <?php include("config.php"); 
-$id = $_GET["id"];
-// fetch db calonsiswa untuk menampilkan data 'id' yang harus diedit
-$query = pg_query("SELECT * FROM adopter WHERE adopter_id = $id");
-$edit = pg_fetch_assoc($query);
+
+$certificate_id = $_GET["certificate_id"];
+$query1 = pg_query("SELECT * FROM certificate WHERE certificate_id = $certificate_id");
+$edit = pg_fetch_assoc($query1);
+$mundur = $edit["adopter_id"];
+$query2 = pg_query("SELECT * FROM adopter WHERE adopter_id = $mundur");
+$sertif = pg_fetch_assoc($query2);
 ?>
 
 <!DOCTYPE html>
@@ -58,7 +61,7 @@ $edit = pg_fetch_assoc($query);
             </div>
 
             <div class="marquee">
-                Certificate of Completion
+                Certificate of Adoption
             </div>
 
             <div class="assignment">
@@ -66,7 +69,7 @@ $edit = pg_fetch_assoc($query);
             </div>
 
             <div class="person">
-            <?= $edit["name"]; ?>
+            <?= $sertif["name"]; ?>
             </div>
 
             <div class="reason">

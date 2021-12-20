@@ -23,6 +23,7 @@
             <th>Gender</th>
             <th>Age</th>
             <th>Time Adopted</th>
+            <th>Certificate</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -41,6 +42,10 @@
             echo "<td>".$hewan['age']."</td>";
             echo "<td>".$hewan['timestamps']."</td>";
 
+            echo "<td>";
+			echo "<a href='sertif.php?certificate_id=".$hewan['certificate_id']."'>Generate</a>";
+			echo "</td>";
+
 			echo "</tr>";
 
 			}
@@ -55,3 +60,4 @@
 
 	</body>
 </html>
+
