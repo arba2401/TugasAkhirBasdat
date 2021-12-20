@@ -13,7 +13,7 @@
 
 	<br>
 
-	<table border="1">
+	<table border=2>
 	<thead>
 		<tr>
 			<th>No</th>
@@ -24,15 +24,13 @@
 			<th>Breed</th>
             <th>Gender</th>
             <th>Age</th>
-            <th colspan="2">action</th>
+            <th colspan="2">Action</th>
 		</tr>
 	</thead>
 	<tbody>
 
 		<?php
 		$query = pg_query("SELECT * FROM pet");
-		// $query = mysqli_query($db, $sql);
-
 
 		while($hewan = pg_fetch_array($query)){
 			echo "<tr>";
@@ -47,11 +45,11 @@
             echo "<td>".$hewan['age']."</td>";
 
 			echo "<td>";
-			echo "<a href='erase.php?id=".$hewan['pet_id']."'>Erase</a>";
+			echo "<a href='erase.php?pet_id=".$hewan['pet_id']."'>Erase</a>";
 			echo "</td>";
 			
 			echo "<td>";
-			echo "<a href='formedit.php?id=".$hewan['pet_id']."'>Edit</a>";
+			echo "<a href='formedit.php?pet_id=".$hewan['pet_id']."'>Edit</a>";
 			echo "</td>";
 
 			echo "</tr>";
