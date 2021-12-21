@@ -57,7 +57,7 @@ $sertif = pg_fetch_assoc($query2);
     <body>
         <div class="container">
             <div class="logo">
-                An Organization
+                Adoption Center Present
             </div>
 
             <div class="marquee">
